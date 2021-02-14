@@ -1,0 +1,5 @@
+T:FT';
+T':epsilon|*FT'|/FT';
+E:TE';
+F:num|id|(E);
+E':epsilon|+TE'|-TE';

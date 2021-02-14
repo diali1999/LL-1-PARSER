@@ -1,0 +1,18 @@
+E->TE'
+T->FT'
+F->num
+Match num
+T'->epsilon
+E'->+TE'
+Match +
+T->FT'
+F->num
+Match num
+T'->epsilon
+E'->+TE'
+Match +
+T->FT'
+F->id
+Match id
+T'->epsilon
+E'->epsilon
